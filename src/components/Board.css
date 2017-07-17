@@ -1,0 +1,13 @@
+.board-header {
+    margin: 10px 0;
+}
+
+.board-grid {
+    display: inline-block;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
