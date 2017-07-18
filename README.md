@@ -1,7 +1,7 @@
 ## Minesweeper - ReactJS
 
 **Rules:** Click wherever you want!
-![Screenshot](./screenshot.png)
+![Screenshot](https://github.com/jeremiemarc/minesweeper-reactjs/raw/master/screenshot.png)
 
 ## Development
 
