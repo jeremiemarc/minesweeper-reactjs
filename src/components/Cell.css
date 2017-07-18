@@ -20,3 +20,35 @@
 .cell:focus {
     outline: none;
 }
+
+.cell-adj-1 {
+    color:#8FFA20;
+}
+
+.cell-adj-2 {
+    color: #8FFA85;
+}
+
+.cell-adj-3 {
+    color: #43D99A;
+}
+
+.cell-adj-4 {
+    color: #09A7B4;
+}
+
+.cell-adj-5 {
+    color: #756585;
+}
+
+.cell-adj-6 {
+    color: #FF8C89;
+}
+
+.cell-adj-7 {
+    color: #FF8CCF;
+}
+
+.cell-adj-8 {
+    color: #FF8D0F;
+}

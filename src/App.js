@@ -8,8 +8,8 @@ class App extends Component {
     constructor(props) {
         super(props);
 
-        var nbRows = Math.floor((Math.random() * 10) + 5);
-        var nbCols = Math.floor((Math.random() * 10) + 5)
+        let nbRows = Math.floor((Math.random() * 10) + 5);
+        let nbCols = Math.floor((Math.random() * 10) + 5);
 
         this.state = {
             nbRows: nbRows,
@@ -20,8 +20,6 @@ class App extends Component {
 
 
     render() {
-
-
         return (
             <div className="app">
                 <div className="app-header">

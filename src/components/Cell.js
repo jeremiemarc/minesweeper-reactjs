@@ -3,20 +3,26 @@ import './Cell.css';
 
 class Cell extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            value: null
-        };
-    }
-
     render() {
-        var label = null;
-        if (this.props.value === 'X') {
-            label = this.props.value;
+        let label;
+        let cellStyles = [];
+        let currentCell = this.props.value;
+
+        if (currentCell.isDisclosed){
+            cellStyles.push("cell-disclosed");
+
+            if (currentCell.adjacentMinesCount > 0) {
+                label = currentCell.adjacentMinesCount;
+                cellStyles.push("cell-adj-" + currentCell.adjacentMinesCount);
+            }
         }
+
+        if(currentCell.isMined){
+            label = 'X';
+        }
+
         return (
-            <button className={"cell " + (this.props.value === "DISCLOSED" ? "cell-disclosed" : "")}
+            <button className={"cell " + (cellStyles.length > 0  ? cellStyles.join(" ") : "")}
                     onClick={this.props.onClick}>
                 {label}
             </button>
