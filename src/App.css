@@ -13,9 +13,10 @@ body {
 
 .app-header {
     background-color: #81DAF5;
-    height: 150px;
+    height: 120px;
     padding: 20px;
     color: white;
+    border-radius: 6px;
 }
 
 .app-body {

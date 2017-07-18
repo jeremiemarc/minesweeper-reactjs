@@ -17,12 +17,16 @@
     background: #FFFFFF;
 }
 
+.cell-bomb {
+    height: 24px;
+}
+
 .cell:focus {
     outline: none;
 }
 
 .cell-adj-1 {
-    color:#8FFA20;
+    color: #8FFA20;
 }
 
 .cell-adj-2 {

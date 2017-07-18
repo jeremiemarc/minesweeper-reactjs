@@ -1,19 +1,17 @@
-## Progress
+## Minesweeper - ReactJS
 
-Steps used to build the game
+**Rules:** Click wherever you want!
+![Screenshot](./screenshot.png)
 
-* **Grid** - Drawing Grid
-* **Grid** - Random Grid Size
-* **Board** - Adding Mines
-* **Board** - Random Mines
-* **Board** - Calculating Distances
-* **GamePlay** - Handle Click
-* **GamePlay** - Handle Cell Surroundings
-* **GamePlay** - Handle Clicked Mines
+## Development
 
-## Notes
+
+1. Install [Yarn](https://yarnpkg.com)
+2. Run the following command:
+    ```
+    yarn start
+    ```
+3. The game should be available on: **http://localhost:3000/**
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
