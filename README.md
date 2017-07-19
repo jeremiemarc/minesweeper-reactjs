@@ -1,6 +1,8 @@
 ## Minesweeper - ReactJS
 
-![Screenshot](https://github.com/jeremiemarc/minesweeper-reactjs/blob/master/screenshot.PNG)
+<p align="center">
+  <img src="https://github.com/jeremiemarc/minesweeper-reactjs/blob/master/screenshot.PNG" alt="Minesweeper"/>
+</p>
 
 **Rules:** Click wherever you want!
 
